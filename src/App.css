@@ -1,0 +1,112 @@
+/**************************************/
+/* Title style */
+/**************************************/
+body {
+	background-color: #111; /* #111*/
+}
+
+.title, .projects, .nav, .project, .recentProjects {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url('./assets/img/smoke.webp');
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+	text-transform: uppercase;
+	font-size: 12vw;
+	line-height: .75;
+	margin: 10px 0;
+  cursor: default;
+}
+
+.subtitle {
+	font-size: 2vw;
+  line-height: 10vh;
+}
+/**************************************/
+/* Title style */
+/**************************************/
+
+
+/**************************************/
+/* Projects style */
+/**************************************/
+.projects, .recentProjects {
+	flex-direction: row;
+  align-items: stretch;
+	justify-content: stretch;
+	height: 10vh;
+  cursor: pointer;
+}
+
+.recentProjects {
+  align-items: center;
+  justify-content: center;
+  background: #2F2F2F;
+}
+
+h2 {
+	color: #868686;
+	text-transform: uppercase;
+	font-size: 2vh;
+	line-height: .75;
+	margin: 10px 0;
+  transition: color 0.15s ease 0;
+  cursor: pointer;
+}
+
+.project {
+  width: 25vw;
+  height: 100%;
+}
+
+.project:hover {
+  background-color: #2F2F2F;
+}
+
+.project:hover > h2 {
+  color: #FFFAFA;
+}
+
+#more {
+  line-height: 4vh;
+}
+/**************************************/
+/* Projects style */
+/**************************************/
+
+
+/**************************************/
+/* Nav */
+/**************************************/
+span {
+  color: #868686;
+  font-size: 3vh;
+  transition: color 0.15s ease 0;
+}
+
+span:hover {
+  color: #FFFAFA;
+}
+
+.nav {
+	flex-direction: row;
+	justify-content: flex-start;
+  margin-left: 2vw;
+	height: 9vh;
+}
+/**************************************/
+/* Nav */
+/**************************************/
